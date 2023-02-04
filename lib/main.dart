@@ -364,7 +364,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                                                           const BoxDecoration(
                                                                               image: DecorationImage(image: AssetImage('assets/img1.jpg'))),
                                                                     ),
-                                                                    SizedBox(
+                                                                    const SizedBox(
                                                                       width: 10,
                                                                     ),
                                                                     Text(
@@ -399,19 +399,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                               },
                                             ),
                                           ),
-                                          // SizedBox(
-                                          //   height: 20,
-                                          // ),
-                                          // Container(
-                                          //   width: 550,
-                                          //   height: 150,
-                                          //   decoration: BoxDecoration(
-                                          //       borderRadius:
-                                          //           BorderRadius.circular(10),
-                                          //       border: Border.all(
-                                          //           width: 1,
-                                          //           color: Colors.white)),
-                                          // ),
                                         ],
                                       ),
                                     ),
